@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			
+			.boxinside {
+                  display: flex;
+                  flex-direction: row; /* 修改为水平排列 */
+                  justify-content: space-between;
+                }
+            .item {
+            	border: solid 1px;
+            	width: 200px;
+            	height: 100px;
+                  
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                } 
+            #img {
+                  width: 50%; /* 设置图片宽度为50% */
+                  object-fit: cover; /* 保持图片纵横比 */
+                  height: 50%;
+                }
+            .item a {
+                text-decoration: none; /* 去除下划线 */
+            }
+		</style>
+	</head>
+	<body>
+		<div id="box">
+		    <div class="list">
+              <div class="item"><a href="#">安徽专辑（下）</a></div>
+              <div class="item"><a href="#">安徽专辑（上）</a></div>
+              <div class="item"><a href="#">冬季赛里木湖</a></div>
+              <div class="item"><a href="#">海马冷泉</a></div>
+              <div class="item"><a href="#">河西走廊</a></div>
+		      <div id="img">
+			  <img  alt="Your Image" />	
+			  </div>
+	      </div>
+		  
+	</body>
+</html>
